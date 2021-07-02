@@ -7,10 +7,10 @@ while True:
 		int2 = int(input2)					#convert 2nd input to int
 	except ValueError:
 		print("invalid input, try again!")
-		contiue()
-	break()
+		continue
+	break
 
 
 solution = int1 + int2 				#add 'int1' to 'int2' and store in 'solution'
 
-print(solution)						#print solution
+print(str(int1) + " plus " + str(int2) + " is " + str(solution))						#print solution
