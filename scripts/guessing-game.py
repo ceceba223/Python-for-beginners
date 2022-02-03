@@ -1,11 +1,11 @@
 from random import randint
 
 while True:
-    guesses = 0
+    guesses = 1
     randnum = randint(1, 10)
     print("I made up a number between 1 and 10. Guess it!")
 
-    while guesses < 5:
+    while guesses <= 5:
         guess = int(input("Guess: "))
 
         if guess == randnum:
