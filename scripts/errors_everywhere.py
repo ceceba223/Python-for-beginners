@@ -1,4 +1,4 @@
-# Finde und behebe die 4 Errors 
+# Finde und behebe die 6 Errors 
 
 message = "6374667b596f754669786564416c6c4572726f7273217d"
 list_of_bytes : []
